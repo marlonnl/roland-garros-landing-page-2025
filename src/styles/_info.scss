@@ -5,7 +5,7 @@
     color: #fff;
 
     padding: 20vh 0;
-    // text-align: center;
+    min-height: 100vh;
 
     .container {
         display: flex;
@@ -22,15 +22,5 @@
         max-width: 400px;
         border-radius: 8px;
         box-shadow: 10px 10px 10px black;
-    }
-
-    &__title {
-        padding-bottom: 24px;
-        font-size: 48px;
-        line-height: 58px;
-    }
-
-    &__text {
-        line-height: 38px;
     }
 }

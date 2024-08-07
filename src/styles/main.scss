@@ -1,6 +1,7 @@
 @use 'vars';
 @use 'hero';
 @use 'info';
+@use 'last';
 
 * {
     box-sizing: border-box;
@@ -13,4 +14,14 @@
     width: 960px;
     max-width: 100%;
     margin: 0 auto;
+}
+
+.title {
+    padding-bottom: 24px;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.text {
+    line-height: 38px;
 }
