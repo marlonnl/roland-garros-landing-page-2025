@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./styles/main.scss">
 </head>
 <body>
@@ -17,7 +19,7 @@
 
         <div class="container">
             
-            <div class="hero__bar">
+            <div class="hero__bar" data-aos="fade-up">
 
                 <img src="./images/fft-rg-site_95765448-c7fa-428b-b565-8368dba90b17_logo.svg" alt="" class="hero__bar__img">
 
@@ -33,7 +35,7 @@
 
     <section class="info">
 
-        <div class="container">
+        <div class="container" data-aos="fade-right">
 
             <img class="info__image" src="./images/quadra.avif" alt="Quadra de saibro">
 
@@ -55,7 +57,7 @@
 
         <div class="container">
 
-            <div class="last__container">
+            <div class="last__container" data-aos="fade-right">
 
                 <h2 class="title">
                     Relembre as partidas de 2024
@@ -78,6 +80,7 @@
 
     </section>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>
