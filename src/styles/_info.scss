@@ -1,0 +1,9 @@
+@use 'vars';
+
+.info {
+    background-color: vars.$green;
+
+    &__title {
+
+    }
+}
